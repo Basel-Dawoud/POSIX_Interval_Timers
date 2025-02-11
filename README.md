@@ -275,11 +275,7 @@ union sigval {
 
 ---
 
-Here’s the requested information on the `timerid` and related concepts for the `timer_create()` function:
-
----
-
-### 3. **`timerid`** (`timer_t *`)
+3. **`timerid`** (`timer_t *`):
 
 A **pointer to a buffer** where the kernel will store the created timer’s identifier.
 
