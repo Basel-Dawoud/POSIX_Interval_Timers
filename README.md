@@ -615,10 +615,6 @@ int main() {
 
 ---
 
-Here’s how you can add the new section to your README:
-
----
-
 # **What happens when a timer is created?**
 
 - For each POSIX timer created using `timer_create()`, the kernel **preallocates one queued realtime signal structure**.
@@ -769,9 +765,6 @@ int main() {
 
 ---
 
-Here’s how you can add the new section to your README:
-
----
 
 # **`timer_settime()`**
 
@@ -1136,8 +1129,6 @@ Alternatively, `si_overrun` in `siginfo_t` can be used on Linux systems for a mo
 - **Timer Overruns**: Ensure that timer expirations are accounted for, even if signals are delayed.
 - **Overrun Detection**: Use `timer_getoverrun()` or `si_overrun` for handling missed expirations.
 - **Signal Handling**: Use `sigaction()` to capture extended signal information, especially for timers.
-
-Here’s a template for writing closing statements for a repository:
 
 ---
 
