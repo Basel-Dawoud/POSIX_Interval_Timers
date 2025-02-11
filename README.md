@@ -87,9 +87,6 @@ int main() {
 
 ---
 
-Got it! Here's a more complete summary, adding everything you provided:
-
----
 
 # **POSIX Timers and Process Inheritance**
 
