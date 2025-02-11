@@ -436,6 +436,7 @@ Signal 14 received. Timer ID: 12345678
 - The timer ID is passed in `sigev_value.sival_int`, making it accessible in the signal handler.
 
 Passing a `NULL` `evp` is convenient for simple timer-based applications but limits your control over the notification mechanism. If you need customized behavior (e.g., specific signals, thread execution, or no notification), you should provide a properly initialized `struct sigevent`.
+---
 
 
 # **`sigwaitinfo()` and `sigtimedwait()`**
