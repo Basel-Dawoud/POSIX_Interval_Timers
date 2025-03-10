@@ -1,5 +1,7 @@
 # **Understanding POSIX Interval Timers in Linux**
 
+This repository contains the **source code** and **documentation** for the concepts and labs discussed in the [YouTube video on POSIX Interval Timers in Linux](https://youtu.be/fh-poelBw5U?si=KxRx403eC6lkR0A7). The video walks through practical examples and detailed explanations on how POSIX interval timers work, along with step-by-step code demonstrations. Please refer to the labs and examples in this repository for more in-depth material.
+
 POSIX interval timers are defined in **<time.h>** and managed using system calls such as:
 
 - `timer_create()` → Creates a new timer.
